@@ -12,6 +12,7 @@ function createCard (cardItem, deleteCard) {
     cardImage.src = cardItem.link;
     cardImage.alt = cardItem.name;
     cardTitle.textContent = cardItem.name;
+    
     /*cardElement.querySelector('.card__image').src = cardItem.link;
     cardElement.querySelector('.card__image').alt = cardItem.name;
     cardElement.querySelector('.card__title').textContent = cardItem.name;*/
